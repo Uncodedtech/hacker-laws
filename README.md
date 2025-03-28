@@ -4,10 +4,10 @@
 ---
 
 - 📖 Check out my new book [Effective Shell](https://effective-shell) on [Amazon](https://amzn.to/4ho0F91)
-- 🌍 Check out the website [hacker-laws.com](https://hacker-laws.com)
+- 🌍 Try [hacker-laws.com](https://hacker-laws.com)
+- 🧠 Experiment with my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
 - ☕️ Like this project? Consider [buying me a coffee with a one-off donation](https://github.com/sponsors/dwmkerr?frequency=one-time)
-- 🧠 Check out my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
-- 🎧 Try the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
+- 🎧 Listen to the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
 - 📖 Download the [PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pd)
 
 ---
@@ -47,6 +47,7 @@
     - [Premature Optimization Effect](#premature-optimization-effect)
     - [Putt's Law](#putts-law)
     - [Reed's Law](#reeds-law)
+    - [The Bitter Lesson](#the-bitter-lesson)
     - [The Ringelmann Effect](#the-ringelmann-effect)
     - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     - [The Law of Demeter](#the-law-of-demeter)
@@ -63,6 +64,7 @@
 - [Principles](#principles)
     - [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
     - [Chesterton's Fence](#chestertons-fence)
+    - [Kerckhoffs's principle](#kerckhoffss-principle)
     - [The Dead Sea Effect](#the-dead-sea-effect)
     - [The Dilbert Principle](#the-dilbert-principle)
     - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -597,6 +599,18 @@ See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
 
+### The Bitter Lesson
+
+[The Bitter Lesson by Richard S. Sutton](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+
+> The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin.
+>
+> Richard S. Sutton (2019)
+
+The "Bitter Lesson", stated by [Rich S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton), says that scale (in terms of both data and computational power) has driven the most significant advancements in AI research, rather than the intricacies of the research methods themselves.
+
+He goes on to suggest that this indicates we should stop trying to build simplified (or even complex) models of the mind as history has shown that these have always in the long term been failures compared to (as an example) scaling the capacity of neural networks and applying existing methods such as convolution.
+
 ### The Ringelmann Effect
 
 [The Ringelmann effect on Wikipedia](https://en.wikipedia.org/wiki/Ringelmann_effect)
@@ -803,6 +817,22 @@ See also:
 This principle is relevant in software engineering when removing technical debt. Each line of a program was originally written by someone for some reason. Chesterton's Fence suggests that one should try to understand the context and meaning of the code fully, before changing or removing it, even if at first glance it seems redundant or incorrect.
 
 The name of this principle comes from a story by [G.K. Chesterton](https://en.wikipedia.org/wiki/G._K._Chesterton). A man comes across a fence crossing the middle of the road. He complains to the mayor that this useless fence is getting in the way, and asks to remove it. The mayor asks why the fence is there in the first place. When the man says he doesn't know, the mayor says, "If you don't know its purpose, I certainly won't let you remove it. Go and find out the use of it, and then I may let you destroy it."
+
+### Kerckhoffs's principle
+
+[Kerckhoffs's principle on Wikipedia](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
+
+> "...design your system assuming that your opponents know it in detail."
+>
+> _Steven M. Bellovin's formulation of Kerckhoff's Principle_
+
+This principle of cryptography was an axiom created by cryptographer Auguste Kerckhoffs. He stated that a cryptosystem should be secure, even if everything about the system, except the key, is public knowledge. Not to be confused with [_"security through obscurity"_](#todo).
+
+The gold standard for any secret-keeping system is that implementation details should be publicly distributed, without sacrificing or compromising security of said system.
+
+The history of cryptography has shown that open discussion and analysis of cryptographic systems leads to better and more secure systems - as researchers are able to test for and expose potential vulnerabilities.
+
+- [Shannon's Maxim](#todo)
 
 ### The Dead Sea Effect
 
