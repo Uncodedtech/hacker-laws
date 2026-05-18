@@ -760,6 +760,31 @@ See also:
 
 https://www.amazon.sg/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
 
+### The Second-System Effect
+
+[The Second-System Effect on Wikipedia](https://en.wikipedia.org/wiki/Second-system_effect)
+
+[The Second-System Effect in _The Mythical Man-Month_](https://pages.cs.wisc.edu/~param/quotes/man-month.html)
+
+> The second is the most dangerous system a man ever designs.
+>
+> (Frederick P. Brooks Jr.)
+
+The Second-System Effect describes the tendency for a successful first system to be followed by an over-engineered or bloated second system. Frederick P. Brooks Jr. introduced the phrase in _The Mythical Man-Month_, where he argued that a first system is often built conservatively because its designers are still learning and proceed with restraint.
+
+After that initial success, deferred ideas and increased confidence can make the second system more ambitious. This is relevant to rewrites, major version 2 projects and platform rebuilds: a replacement system can be useful when the first version has taught the team what the real problem is, but it can also become harder to build, understand and maintain if it attempts to solve too many speculative future needs at once.
+
+See also:
+
+- [Brooks' Law](#brooks-law)
+- [Gall's Law](#galls-law)
+- [The KISS principle](#the-kiss-principle)
+- [YAGNI](#yagni)
+
+Real-world examples:
+
+- [OS/360](https://en.wikipedia.org/wiki/OS/360) - Brooks used IBM's OS/360 as a key example of the Second-System Effect in _The Mythical Man-Month_, contrasting its ambitious scope with earlier, simpler IBM operating systems.
+
 ### The Spotify Model
 
 [The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
