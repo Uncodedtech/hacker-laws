@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.0](https://github.com/dwmkerr/hacker-laws/compare/v0.5.0...v0.6.0) (2026-05-19)
+
+
+### Features
+
+* add Second-System Effect ([040453d](https://github.com/dwmkerr/hacker-laws/commit/040453d1f7b5c34ffa5229384039974052d6a28c))
+* add Second-System Effect ([99b1ae8](https://github.com/dwmkerr/hacker-laws/commit/99b1ae896cd216a37e6c0ac22851e3cfca5bf103))
+
 ## [0.5.0](https://github.com/dwmkerr/hacker-laws/compare/v0.4.0...v0.5.0) (2026-02-06)
 
 
